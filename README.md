@@ -25,6 +25,3 @@ in the folder are changed.
   - Your AWS role should have all the necessary permissions to create EC2 instances.
   - You need to add SSH key created by terraform to the secrets in github repo for workflow to work.
   Workflow uses ```secrets.SSH_EC2_KEY``` variable as SSH key for ansible.
-
-
-### Link to the project details: [https://roadmap.sh/projects/nodejs-service-deployment](https://roadmap.sh/projects/nodejs-service-deployment).
